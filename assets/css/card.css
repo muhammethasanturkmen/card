@@ -183,3 +183,46 @@ button {
   color: #FFFFFF;
   border-radius: 3px;
 }
+
+.thank {
+  padding: 275px;
+  display: none;
+}
+
+.thank img {
+  padding-inline: 150px;
+  margin-bottom: 35px;
+}
+
+.thank h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.73px;
+  letter-spacing: 3.422222137451172px;
+  text-align: center;
+  color: #21092F;
+  margin-bottom: 16px;
+}
+
+.thank p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  text-align: center;
+  color: #8F8694;
+  margin-bottom: 48px;
+}
+
+.thank button {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #21092F;
+  border: solid 1px #21092F;
+  padding: 15px 150px;
+}
