@@ -1,0 +1,185 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+input {
+  border: solid 1px #DFDEE0;
+  color: #FFFFFF;
+  width: 381px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+
+.container {
+  display: flex;
+}
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.31px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #21092F;
+}
+
+.datecard input {
+  width: 80px;
+  height: 45px;
+}
+
+.cvc input {
+  width: 80px;
+  height: 45px;
+}
+
+.infocard {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #21092F;
+  width: 381px;
+  height: 53px;
+  border-radius: 10px;
+  border: #21092F;
+}
+
+.inputname {
+  margin-bottom: 26px;
+}
+
+.inputnumber {
+  margin-bottom: 26px;
+}
+
+.infocard {
+  margin-bottom: 40px;
+}
+
+.right {
+  padding: 275px;
+}
+
+.number {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.73px;
+  letter-spacing: 3.422222137451172px;
+  text-align: left;
+  padding-inline: 32px;
+  color: #FFFFFF;
+  position: relative;
+  top: 150px;
+}
+
+.alt {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 32px;
+  position: relative;
+  top: 170px;
+}
+
+.alt p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.86px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.oncard {
+  background-image: url(/assets/img/onkart.png);
+  width: 447px;
+  height: 245px;
+  position: relative;
+  bottom: 770px;
+  left: 130px;
+}
+
+.arkacard {
+  background-image: url(/assets/img/arkakart.png);
+  width: 447px;
+  height: 245px;
+  position: relative;
+  bottom: 730px;
+  left: 220px;
+}
+
+.black {
+  width: 447px;
+  height: 54px;
+  background-color: #2F2F2F;
+  position: relative;
+  top: 23px;
+}
+
+.backnumber {
+  position: relative;
+  top: 101px;
+  width: 361px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #ADB5BE;
+  margin-inline: auto;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.86px;
+  letter-spacing: 2px;
+  text-align: right;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
