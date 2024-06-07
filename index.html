@@ -12,28 +12,31 @@
     <div class="left">
       <div class="back"><img src="assets/img/Group 10.png" alt="back"></div>
       <div class="oncard">
-        <p class="number">00000000</p>
+        <p class="number" id="number"></p>
         <div class="alt">
-          <p class="name">magic orhan</p>
-          <p class="date">12/29</p>
+          <p class="namew" id="namew">magic orhan</p>
+          <div class="tarih">
+            <p class="ay" id="ay"></p><span>/</span>
+            <p class="yil" id="yil"></p>
+          </div>
         </div>
       </div>
       <div class="arkacard">
         <div class="black"></div>
-        <p class="backnumber">000</p>
+        <p class="backnumber" id="backnumber"></p>
       </div>
     </div>
     <div class="right">
       <div class="inputname">
         <label>
           <p>Cardholder Name</p>
-          <p><input placeholder="orhan.gbt" type="text"></p>
+          <p><input id="nameinput" placeholder="orhan.gbt" type="text"></p>
         </label>
       </div>
       <div class="inputnumber">
         <label>
           <p>Card Number</p>
-          <p><input placeholder="1234567890000000" type="number"></p>
+          <p><input id="cardnumber" placeholder="1234567890000000" type="number"></p>
         </label>
       </div>
       <div class="infocard">
@@ -41,8 +44,8 @@
           <label>
             <p>Exp. Date (MM/YY)</p>
             <p>
-              <input placeholder="MM" type="number">
-              <input placeholder="YY" type="number">
+              <input id="inputay" placeholder="MM" type="number">
+              <input id="inputyil" placeholder="YY" type="number">
             </p>
           </label>
         </div>
@@ -50,12 +53,12 @@
           <label>
             <p>CVC</p>
             <p>
-              <input placeholder="123" type="number">
+              <input id="cvc" placeholder="123" type="number">
             </p>
           </label>
         </div>
       </div>
-      <button>Confirm</button>
+      <button id="button">Confirm</button>
     </div>
     <div class="thank">
       <img src="assets/img/Group 9.png" alt="">
