@@ -119,6 +119,8 @@ button {
 
 .right {
   padding: 275px;
+  display: flex;
+  flex-direction: column;
 }
 
 .number {
@@ -201,6 +203,7 @@ button {
 .thank {
   padding: 275px;
   display: none;
+  flex-direction: column;
 }
 
 .thank img {
